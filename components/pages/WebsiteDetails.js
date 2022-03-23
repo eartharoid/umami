@@ -9,19 +9,20 @@ import MenuLayout from 'components/layout/MenuLayout';
 import Link from 'components/common/Link';
 import Loading from 'components/common/Loading';
 import Arrow from 'assets/arrow-right.svg';
-import styles from './WebsiteDetails.module.css';
-import PagesTable from '../metrics/PagesTable';
-import ReferrersTable from '../metrics/ReferrersTable';
-import BrowsersTable from '../metrics/BrowsersTable';
-import OSTable from '../metrics/OSTable';
-import DevicesTable from '../metrics/DevicesTable';
-import CountriesTable from '../metrics/CountriesTable';
-import EventsTable from '../metrics/EventsTable';
-import EventsChart from '../metrics/EventsChart';
+import PagesTable from 'components/metrics/PagesTable';
+import ReferrersTable from 'components/metrics/ReferrersTable';
+import BrowsersTable from 'components/metrics/BrowsersTable';
+import OSTable from 'components/metrics/OSTable';
+import DevicesTable from 'components/metrics/DevicesTable';
+import CountriesTable from 'components/metrics/CountriesTable';
+import LanguagesTable from 'components/metrics/LanguagesTable';
+import EventsTable from 'components/metrics/EventsTable';
+import EventsChart from 'components/metrics/EventsChart';
 import useFetch from 'hooks/useFetch';
 import usePageQuery from 'hooks/usePageQuery';
 import useShareToken from 'hooks/useShareToken';
 import { DEFAULT_ANIMATION_DURATION, TOKEN_HEADER } from 'lib/constants';
+import styles from './WebsiteDetails.module.css';
 
 const views = {
   url: PagesTable,
@@ -30,12 +31,13 @@ const views = {
   os: OSTable,
   device: DevicesTable,
   country: CountriesTable,
+  language: LanguagesTable,
   event: EventsTable,
 };
 
 export default function WebsiteDetails({ websiteId }) {
   const shareToken = useShareToken();
-  const { data } = useFetch(`/api/website/${websiteId}`, {
+  const { data } = useFetch(`/website/${websiteId}`, {
     headers: { [TOKEN_HEADER]: shareToken?.token },
   });
   const [chartLoaded, setChartLoaded] = useState(false);
@@ -47,7 +49,7 @@ export default function WebsiteDetails({ websiteId }) {
   } = usePageQuery();
 
   const BackButton = () => (
-    <div key="back-button" className={styles.backButton}>
+    <div key="back-button" className={classNames(styles.backButton, 'col-12')}>
       <Link key="back-button" href={resolve({ view: undefined })} icon={<Arrow />} size="small">
         <FormattedMessage id="label.back" defaultMessage="Back" />
       </Link>
@@ -81,6 +83,10 @@ export default function WebsiteDetails({ websiteId }) {
     {
       label: <FormattedMessage id="metrics.countries" defaultMessage="Countries" />,
       value: resolve({ view: 'country' }),
+    },
+    {
+      label: <FormattedMessage id="metrics.languages" defaultMessage="Languages" />,
+      value: resolve({ view: 'language' }),
     },
     {
       label: <FormattedMessage id="metrics.events" defaultMessage="Events" />,
@@ -118,9 +124,9 @@ export default function WebsiteDetails({ websiteId }) {
             showLink={false}
             stickyHeader
           />
+          {!chartLoaded && <Loading />}
         </div>
       </div>
-      {!chartLoaded && <Loading />}
       {chartLoaded && !view && (
         <GridLayout>
           <GridRow>

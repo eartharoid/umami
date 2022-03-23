@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import tinycolor from 'tinycolor2';
+import { colord } from 'colord';
 import BarChart from './BarChart';
 import { getDateArray, getDateLength } from 'lib/date';
 import useFetch from 'hooks/useFetch';
@@ -10,26 +10,28 @@ import useShareToken from 'hooks/useShareToken';
 import { EVENT_COLORS, TOKEN_HEADER } from 'lib/constants';
 
 export default function EventsChart({ websiteId, className, token }) {
-  const [dateRange] = useDateRange(websiteId);
-  const { startDate, endDate, unit, modified } = dateRange;
+  const [{ startDate, endDate, unit, modified }] = useDateRange(websiteId);
   const [timezone] = useTimezone();
-  const { query } = usePageQuery();
+  const {
+    query: { url, eventType },
+  } = usePageQuery();
   const shareToken = useShareToken();
 
   const { data, loading } = useFetch(
-    `/api/website/${websiteId}/events`,
+    `/website/${websiteId}/events`,
     {
       params: {
         start_at: +startDate,
         end_at: +endDate,
         unit,
         tz: timezone,
-        url: query.url,
+        url,
+        event_type: eventType,
         token,
       },
       headers: { [TOKEN_HEADER]: shareToken?.token },
     },
-    [modified],
+    [modified, eventType],
   );
 
   const datasets = useMemo(() => {
@@ -51,13 +53,13 @@ export default function EventsChart({ websiteId, className, token }) {
     });
 
     return Object.keys(map).map((key, index) => {
-      const color = tinycolor(EVENT_COLORS[index % EVENT_COLORS.length]);
+      const color = colord(EVENT_COLORS[index % EVENT_COLORS.length]);
       return {
         label: key,
         data: map[key],
         lineTension: 0,
-        backgroundColor: color.setAlpha(0.6).toRgbString(),
-        borderColor: color.setAlpha(0.7).toRgbString(),
+        backgroundColor: color.alpha(0.6).toRgbString(),
+        borderColor: color.alpha(0.7).toRgbString(),
         borderWidth: 1,
       };
     });

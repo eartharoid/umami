@@ -18,20 +18,21 @@ export default function MetricsBar({ websiteId, className }) {
   const { startDate, endDate, modified } = dateRange;
   const [format, setFormat] = useState(true);
   const {
-    query: { url },
+    query: { url, ref },
   } = usePageQuery();
 
   const { data, error, loading } = useFetch(
-    `/api/website/${websiteId}/stats`,
+    `/website/${websiteId}/stats`,
     {
       params: {
         start_at: +startDate,
         end_at: +endDate,
         url,
+        ref,
       },
       headers: { [TOKEN_HEADER]: shareToken?.token },
     },
-    [url, modified],
+    [modified, url, ref],
   );
 
   const formatFunc = format

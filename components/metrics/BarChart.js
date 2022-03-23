@@ -6,17 +6,16 @@ import { formatLongNumber } from 'lib/format';
 import { dateFormat } from 'lib/date';
 import useLocale from 'hooks/useLocale';
 import useTheme from 'hooks/useTheme';
-import { DEFAUL_CHART_HEIGHT, DEFAULT_ANIMATION_DURATION, THEME_COLORS } from 'lib/constants';
+import useForceUpdate from 'hooks/useForceUpdate';
+import { DEFAULT_ANIMATION_DURATION, THEME_COLORS } from 'lib/constants';
 import styles from './BarChart.module.css';
 import ChartTooltip from './ChartTooltip';
-import useForceUpdate from '../../hooks/useForceUpdate';
 
 export default function BarChart({
   chartId,
   datasets,
   unit,
   records,
-  height = DEFAUL_CHART_HEIGHT,
   animationDuration = DEFAULT_ANIMATION_DURATION,
   className,
   stacked = false,
@@ -215,7 +214,6 @@ export default function BarChart({
         data-tip=""
         data-for={`${chartId}-tooltip`}
         className={classNames(styles.chart, className)}
-        style={{ height }}
       >
         <canvas ref={canvas} />
       </div>
