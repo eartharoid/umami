@@ -2,187 +2,187 @@
   "label.accounts": [
     {
       "type": 0,
-      "value": "帳戶"
+      "value": "Usuarios"
     }
   ],
   "label.add-account": [
     {
       "type": 0,
-      "value": "增加帳戶"
+      "value": "Agregar usuario"
     }
   ],
   "label.add-website": [
     {
       "type": 0,
-      "value": "增加網站"
+      "value": "Agregar sitio"
     }
   ],
   "label.administrator": [
     {
       "type": 0,
-      "value": "管理員"
+      "value": "Administrador"
     }
   ],
   "label.all": [
     {
       "type": 0,
-      "value": "所有"
+      "value": "Todos"
     }
   ],
   "label.all-events": [
     {
       "type": 0,
-      "value": "All events"
+      "value": "Todos los eventos"
     }
   ],
   "label.all-time": [
     {
       "type": 0,
-      "value": "All time"
+      "value": "Todos los tiempos"
     }
   ],
   "label.all-websites": [
     {
       "type": 0,
-      "value": "全部網站"
+      "value": "Todos los sitios"
     }
   ],
   "label.back": [
     {
       "type": 0,
-      "value": "返回"
+      "value": "Atrás"
     }
   ],
   "label.cancel": [
     {
       "type": 0,
-      "value": "取消"
+      "value": "Cancelar"
     }
   ],
   "label.change-password": [
     {
       "type": 0,
-      "value": "更新密碼"
+      "value": "Cambiar contraseña"
     }
   ],
   "label.confirm-password": [
     {
       "type": 0,
-      "value": "確認密碼"
+      "value": "Confirmar contraseña"
     }
   ],
   "label.copy-to-clipboard": [
     {
       "type": 0,
-      "value": "複製"
+      "value": "Copiar al portapapeles"
     }
   ],
   "label.current-password": [
     {
       "type": 0,
-      "value": "目前密碼"
+      "value": "Contraseña actual"
     }
   ],
   "label.custom-range": [
     {
       "type": 0,
-      "value": "自定義時段"
+      "value": "Intervalo personalizado"
     }
   ],
   "label.dashboard": [
     {
       "type": 0,
-      "value": "管理面板"
+      "value": "Panel de control"
     }
   ],
   "label.date-range": [
     {
       "type": 0,
-      "value": "多日"
+      "value": "Fechas"
     }
   ],
   "label.default-date-range": [
     {
       "type": 0,
-      "value": "默認日期範圍"
+      "value": "Intervalo por defecto"
     }
   ],
   "label.delete": [
     {
       "type": 0,
-      "value": "刪除"
+      "value": "Eliminar"
     }
   ],
   "label.delete-account": [
     {
       "type": 0,
-      "value": "刪除帳戶"
+      "value": "Eliminar usuario"
     }
   ],
   "label.delete-website": [
     {
       "type": 0,
-      "value": "刪除網站"
+      "value": "Eliminar sitio"
     }
   ],
   "label.dismiss": [
     {
       "type": 0,
-      "value": "關閉"
+      "value": "Ignorar"
     }
   ],
   "label.domain": [
     {
       "type": 0,
-      "value": "域名"
+      "value": "Dominio"
     }
   ],
   "label.edit": [
     {
       "type": 0,
-      "value": "編輯"
+      "value": "Editar"
     }
   ],
   "label.edit-account": [
     {
       "type": 0,
-      "value": "編輯帳戶"
+      "value": "Editar usuario"
     }
   ],
   "label.edit-website": [
     {
       "type": 0,
-      "value": "編輯網站"
+      "value": "Editar sitio"
     }
   ],
   "label.enable-share-url": [
     {
       "type": 0,
-      "value": "啟用分享連結"
+      "value": "Habilitar compartir URL"
     }
   ],
   "label.invalid": [
     {
       "type": 0,
-      "value": "無效輸入"
+      "value": "Inválido"
     }
   ],
   "label.invalid-domain": [
     {
       "type": 0,
-      "value": "無效域名"
+      "value": "Dominio inválido"
     }
   ],
   "label.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Idioma"
     }
   ],
   "label.last-days": [
     {
       "type": 0,
-      "value": "最近 "
+      "value": "Últimos "
     },
     {
       "type": 1,
@@ -190,13 +190,13 @@
     },
     {
       "type": 0,
-      "value": " 天"
+      "value": " días"
     }
   ],
   "label.last-hours": [
     {
       "type": 0,
-      "value": "最近 "
+      "value": "Últimas "
     },
     {
       "type": 1,
@@ -204,13 +204,13 @@
     },
     {
       "type": 0,
-      "value": " 小時"
+      "value": " horas"
     }
   ],
   "label.logged-in-as": [
     {
       "type": 0,
-      "value": "用戶名: "
+      "value": "Sesión iniciada como "
     },
     {
       "type": 1,
@@ -220,201 +220,221 @@
   "label.login": [
     {
       "type": 0,
-      "value": "登入"
+      "value": "Iniciar sesión"
     }
   ],
   "label.logout": [
     {
       "type": 0,
-      "value": "退出"
+      "value": "Cerrar sesión"
     }
   ],
   "label.more": [
     {
       "type": 0,
-      "value": "更多"
+      "value": "Más"
     }
   ],
   "label.name": [
     {
       "type": 0,
-      "value": "名字"
+      "value": "Nombre"
     }
   ],
   "label.new-password": [
     {
       "type": 0,
-      "value": "新密碼"
+      "value": "Nueva contraseña"
     }
   ],
   "label.owner": [
     {
       "type": 0,
-      "value": "Owner"
+      "value": "Propietario"
     }
   ],
   "label.password": [
     {
       "type": 0,
-      "value": "密碼"
+      "value": "Contraseña"
     }
   ],
   "label.passwords-dont-match": [
     {
       "type": 0,
-      "value": "密碼不一致"
+      "value": "Las contraseñas no coinciden"
     }
   ],
   "label.profile": [
     {
       "type": 0,
-      "value": "個人資料"
+      "value": "Perfil"
     }
   ],
   "label.realtime": [
     {
       "type": 0,
-      "value": "實時"
+      "value": "Tiempo real"
     }
   ],
   "label.realtime-logs": [
     {
       "type": 0,
-      "value": "實時日誌"
+      "value": "Registros en tiempo real"
     }
   ],
   "label.refresh": [
     {
       "type": 0,
-      "value": "刷新"
+      "value": "Actualizar"
     }
   ],
   "label.required": [
     {
       "type": 0,
-      "value": "必填"
+      "value": "Obligatorio"
     }
   ],
   "label.reset": [
     {
       "type": 0,
-      "value": "重置"
+      "value": "Reiniciar"
     }
   ],
   "label.reset-website": [
     {
       "type": 0,
-      "value": "Reset statistics"
+      "value": "Reiniciar estadísticas"
     }
   ],
   "label.save": [
     {
       "type": 0,
-      "value": "保存"
+      "value": "Guardar"
     }
   ],
   "label.settings": [
     {
       "type": 0,
-      "value": "設置"
+      "value": "Configuraciones"
     }
   ],
   "label.share-url": [
     {
       "type": 0,
-      "value": "分享連結"
+      "value": "Compartir URL"
     }
   ],
   "label.single-day": [
     {
       "type": 0,
-      "value": "單日"
+      "value": "Dia"
     }
   ],
   "label.theme": [
     {
       "type": 0,
-      "value": "Theme"
+      "value": "Tema"
     }
   ],
   "label.this-month": [
     {
       "type": 0,
-      "value": "本月"
+      "value": "Este mes"
     }
   ],
   "label.this-week": [
     {
       "type": 0,
-      "value": "本週"
+      "value": "Esta semana"
     }
   ],
   "label.this-year": [
     {
       "type": 0,
-      "value": "今年"
+      "value": "Este año"
     }
   ],
   "label.timezone": [
     {
       "type": 0,
-      "value": "時區"
+      "value": "Zona horaria"
     }
   ],
   "label.today": [
     {
       "type": 0,
-      "value": "今天"
+      "value": "Hoy"
     }
   ],
   "label.tracking-code": [
     {
       "type": 0,
-      "value": "追蹤代碼"
+      "value": "Código de rastreo"
     }
   ],
   "label.unknown": [
     {
       "type": 0,
-      "value": "未知"
+      "value": "Desconocida"
     }
   ],
   "label.username": [
     {
       "type": 0,
-      "value": "用户名"
+      "value": "Nombre de usuario"
     }
   ],
   "label.view-details": [
     {
       "type": 0,
-      "value": "查看更多"
+      "value": "Ver detalles"
     }
   ],
   "label.websites": [
     {
       "type": 0,
-      "value": "網站"
+      "value": "Sitios"
     }
   ],
   "message.active-users": [
-    {
-      "type": 0,
-      "value": "當前線上 "
-    },
     {
       "type": 1,
       "value": "x"
     },
     {
       "type": 0,
-      "value": " 人"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "activo"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "activos"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "x"
     }
   ],
   "message.confirm-delete": [
     {
       "type": 0,
-      "value": "你確定要刪除 "
+      "value": "¿Estás seguro(a) de querer eliminar "
     },
     {
       "type": 1,
@@ -422,13 +442,13 @@
     },
     {
       "type": 0,
-      "value": " 嗎？"
+      "value": "?"
     }
   ],
   "message.confirm-reset": [
     {
       "type": 0,
-      "value": "Are your sure you want to reset "
+      "value": "¿Seguro que deseas restablecer las estadísticas de "
     },
     {
       "type": 1,
@@ -436,55 +456,55 @@
     },
     {
       "type": 0,
-      "value": "'s statistics?"
+      "value": "?"
     }
   ],
   "message.copied": [
     {
       "type": 0,
-      "value": "複製成功！"
+      "value": "¡Copiado!"
     }
   ],
   "message.delete-warning": [
     {
       "type": 0,
-      "value": "所有相關數據將會被刪除。"
+      "value": "Toda la información relacionada será eliminada."
     }
   ],
   "message.failure": [
     {
       "type": 0,
-      "value": "出現錯誤。"
+      "value": "Algo falló."
     }
   ],
   "message.get-share-url": [
     {
       "type": 0,
-      "value": "獲得分享連結"
+      "value": "Obtener URL para compartir"
     }
   ],
   "message.get-tracking-code": [
     {
       "type": 0,
-      "value": "獲得追蹤代碼"
+      "value": "Obtener código de rastreo"
     }
   ],
   "message.go-to-settings": [
     {
       "type": 0,
-      "value": "去設定"
+      "value": "Ir a la configuración"
     }
   ],
   "message.incorrect-username-password": [
     {
       "type": 0,
-      "value": "用户名或密碼不正確。"
+      "value": "Nombre de usuario o contraseña incorrectos."
     }
   ],
   "message.log.visitor": [
     {
       "type": 0,
-      "value": "來自"
+      "value": "Visitante desde "
     },
     {
       "type": 1,
@@ -492,23 +512,7 @@
     },
     {
       "type": 0,
-      "value": "的訪客在搭載 "
-    },
-    {
-      "type": 1,
-      "value": "os"
-    },
-    {
-      "type": 0,
-      "value": " 的"
-    },
-    {
-      "type": 1,
-      "value": "device"
-    },
-    {
-      "type": 0,
-      "value": "上使用 "
+      "value": " usando "
     },
     {
       "type": 1,
@@ -516,13 +520,25 @@
     },
     {
       "type": 0,
-      "value": " 進行訪問。"
+      "value": " en "
+    },
+    {
+      "type": 1,
+      "value": "os"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "device"
     }
   ],
   "message.new-version-available": [
     {
       "type": 0,
-      "value": "umami 有新版本 "
+      "value": "¡Una nueva versión de umami "
     },
     {
       "type": 1,
@@ -530,31 +546,31 @@
     },
     {
       "type": 0,
-      "value": " 發佈啦！"
+      "value": " esta disponible!"
     }
   ],
   "message.no-data-available": [
     {
       "type": 0,
-      "value": "無可用數據。"
+      "value": "Sin información disponible."
     }
   ],
   "message.no-websites-configured": [
     {
       "type": 0,
-      "value": "目前無任何網站設定。"
+      "value": "No tienes ningún sitio configurado."
     }
   ],
   "message.page-not-found": [
     {
       "type": 0,
-      "value": "網頁未找到。"
+      "value": "Página no encontrada"
     }
   ],
   "message.powered-by": [
     {
       "type": 0,
-      "value": "運行 "
+      "value": "Desarrollado con "
     },
     {
       "type": 1,
@@ -564,19 +580,19 @@
   "message.reset-warning": [
     {
       "type": 0,
-      "value": "All statistics for this website will be deleted, but your tracking code will remain intact."
+      "value": "Todas las estadísticas de esta página serán eliminadas, pero el código de rastreo permanecerá intacto."
     }
   ],
   "message.save-success": [
     {
       "type": 0,
-      "value": "成功保存。"
+      "value": "Guardado exitosamente."
     }
   ],
   "message.share-url": [
     {
       "type": 0,
-      "value": "這是 "
+      "value": "Esta es la URL compartida públicamente para "
     },
     {
       "type": 1,
@@ -584,19 +600,27 @@
     },
     {
       "type": 0,
-      "value": " 的分享連結。"
+      "value": "."
     }
   ],
   "message.toggle-charts": [
     {
       "type": 0,
-      "value": "Toggle charts"
+      "value": "Alternar gráficas"
     }
   ],
   "message.track-stats": [
     {
       "type": 0,
-      "value": "將以下代碼放入被設定網站的 "
+      "value": "Para registrar estadísticas para "
+    },
+    {
+      "type": 1,
+      "value": "target"
+    },
+    {
+      "type": 0,
+      "value": ", copia el siguiente código dentro de la etiqueta "
     },
     {
       "type": 1,
@@ -604,21 +628,13 @@
     },
     {
       "type": 0,
-      "value": " 部分來收集 "
-    },
-    {
-      "type": 1,
-      "value": "target"
-    },
-    {
-      "type": 0,
-      "value": " 的資料。"
+      "value": " de tu sitio."
     }
   ],
   "message.type-delete": [
     {
       "type": 0,
-      "value": "在下方空格輸入 "
+      "value": "Escribe "
     },
     {
       "type": 1,
@@ -626,13 +642,13 @@
     },
     {
       "type": 0,
-      "value": " 確認"
+      "value": " abajo para confirmar."
     }
   ],
   "message.type-reset": [
     {
       "type": 0,
-      "value": "在下方空格輸入 "
+      "value": "Escribe "
     },
     {
       "type": 1,
@@ -640,139 +656,139 @@
     },
     {
       "type": 0,
-      "value": " 確認"
+      "value": " en la caja inferior para confirmar."
     }
   ],
   "metrics.actions": [
     {
       "type": 0,
-      "value": "用戶行為"
+      "value": "Acciones"
     }
   ],
   "metrics.average-visit-time": [
     {
       "type": 0,
-      "value": "平均訪問時間"
+      "value": "Tiempo promedio de visita"
     }
   ],
   "metrics.bounce-rate": [
     {
       "type": 0,
-      "value": "跳出率"
+      "value": "Porcentaje de rebote"
     }
   ],
   "metrics.browsers": [
     {
       "type": 0,
-      "value": "瀏覽器"
+      "value": "Navegadores"
     }
   ],
   "metrics.countries": [
     {
       "type": 0,
-      "value": "國家/地區"
+      "value": "Países"
     }
   ],
   "metrics.device.desktop": [
     {
       "type": 0,
-      "value": "桌機"
+      "value": "Escritorio"
     }
   ],
   "metrics.device.laptop": [
     {
       "type": 0,
-      "value": "筆記本"
+      "value": "Portátil"
     }
   ],
   "metrics.device.mobile": [
     {
       "type": 0,
-      "value": "手機"
+      "value": "Móvil"
     }
   ],
   "metrics.device.tablet": [
     {
       "type": 0,
-      "value": "平板"
+      "value": "Tableta"
     }
   ],
   "metrics.devices": [
     {
       "type": 0,
-      "value": "裝置"
+      "value": "Dispositivos"
     }
   ],
   "metrics.events": [
     {
       "type": 0,
-      "value": "行為類別"
+      "value": "Eventos"
     }
   ],
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "總和"
+      "value": "Combinado"
     }
   ],
   "metrics.filter.domain-only": [
     {
       "type": 0,
-      "value": "僅域名"
+      "value": "Únicamente dominio"
     }
   ],
   "metrics.filter.raw": [
     {
       "type": 0,
-      "value": "原始"
+      "value": "Personalizado"
     }
   ],
   "metrics.languages": [
     {
       "type": 0,
-      "value": "Languages"
+      "value": "Idiomas"
     }
   ],
   "metrics.operating-systems": [
     {
       "type": 0,
-      "value": "操作系统"
+      "value": "Sistemas operativos"
     }
   ],
   "metrics.page-views": [
     {
       "type": 0,
-      "value": "網頁流量"
+      "value": "Vistas"
     }
   ],
   "metrics.pages": [
     {
       "type": 0,
-      "value": "網頁"
+      "value": "Páginas"
     }
   ],
   "metrics.referrers": [
     {
       "type": 0,
-      "value": "指入域名"
+      "value": "Referentes"
     }
   ],
   "metrics.unique-visitors": [
     {
       "type": 0,
-      "value": "獨立訪客"
+      "value": "Visitantes únicos"
     }
   ],
   "metrics.views": [
     {
       "type": 0,
-      "value": "頁面流量"
+      "value": "Vistas"
     }
   ],
   "metrics.visitors": [
     {
       "type": 0,
-      "value": "獨立訪客"
+      "value": "Visitantes"
     }
   ]
 }
