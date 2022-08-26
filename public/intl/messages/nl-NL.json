@@ -29,12 +29,6 @@
       "value": "Alles"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Alle gebeurtenissen"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -250,7 +244,7 @@
   "label.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Geen"
     }
   ],
   "label.owner": [
@@ -477,6 +471,12 @@
       "value": "Alle verwante gegezens zullen ook verwijderd worden."
     }
   ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
   "message.failure": [
     {
       "type": 0,
@@ -586,7 +586,7 @@
   "message.reset-warning": [
     {
       "type": 0,
-      "value": "All statistics for this website will be deleted, but your tracking code will remain intact."
+      "value": "Alle bijhorende statistieken van deze website worden verwijderd, maar jouw volgcode blijft gelden."
     }
   ],
   "message.save-success": [
@@ -734,7 +734,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "Gecombineerd"
     }
   ],
   "metrics.filter.raw": [
@@ -767,6 +767,12 @@
       "value": "Pagina's"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
@@ -776,7 +782,7 @@
   "metrics.screens": [
     {
       "type": 0,
-      "value": "Screens"
+      "value": "Schermen"
     }
   ],
   "metrics.unique-visitors": [

@@ -29,12 +29,6 @@
       "value": "Всі"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Всі події"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -453,6 +447,12 @@
       "value": "Усі пов'язані дані будуть видалені також."
     }
   ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
   "message.failure": [
     {
       "type": 0,
@@ -710,7 +710,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "Об'єднані"
     }
   ],
   "metrics.filter.raw": [
@@ -741,6 +741,12 @@
     {
       "type": 0,
       "value": "Сторінки"
+    }
+  ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
     }
   ],
   "metrics.referrers": [

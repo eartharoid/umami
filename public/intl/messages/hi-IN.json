@@ -29,12 +29,6 @@
       "value": "सब"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "All events"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -477,6 +471,12 @@
       "value": "सभी संबद्ध डेटा को भी हटा दिया जाएगा।"
     }
   ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
   "message.failure": [
     {
       "type": 0,
@@ -722,7 +722,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "संयुक्त"
     }
   ],
   "metrics.filter.raw": [
@@ -753,6 +753,12 @@
     {
       "type": 0,
       "value": "पृष्ठों"
+    }
+  ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
     }
   ],
   "metrics.referrers": [

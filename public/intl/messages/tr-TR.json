@@ -29,12 +29,6 @@
       "value": "Tümü"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "All events"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -449,6 +443,12 @@
       "value": "İlişkili tüm veriler de  silinecektir."
     }
   ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
   "message.failure": [
     {
       "type": 0,
@@ -698,7 +698,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "Birleşik"
     }
   ],
   "metrics.filter.raw": [
@@ -729,6 +729,12 @@
     {
       "type": 0,
       "value": "Sayfalar"
+    }
+  ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
     }
   ],
   "metrics.referrers": [

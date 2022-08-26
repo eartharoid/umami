@@ -29,12 +29,6 @@
       "value": "Alt"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "All events"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -477,6 +471,12 @@
       "value": "Øll data ið er knýtt at verður eisini strika."
     }
   ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
   "message.failure": [
     {
       "type": 0,
@@ -734,7 +734,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "Samansett"
     }
   ],
   "metrics.filter.raw": [
@@ -765,6 +765,12 @@
     {
       "type": 0,
       "value": "Síðir"
+    }
+  ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
     }
   ],
   "metrics.referrers": [

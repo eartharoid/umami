@@ -29,12 +29,6 @@
       "value": "Tout"
     }
   ],
-  "label.all-events": [
-    {
-      "type": 0,
-      "value": "Tous les événements"
-    }
-  ],
   "label.all-time": [
     {
       "type": 0,
@@ -242,7 +236,7 @@
   "label.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Aucun·e"
     }
   ],
   "label.owner": [
@@ -471,6 +465,12 @@
     {
       "type": 0,
       "value": "Toutes les données associées seront également supprimées."
+    }
+  ],
+  "message.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
     }
   ],
   "message.failure": [
@@ -730,7 +730,7 @@
   "metrics.filter.combined": [
     {
       "type": 0,
-      "value": "Combined"
+      "value": "Combiné"
     }
   ],
   "metrics.filter.raw": [
@@ -763,6 +763,12 @@
       "value": "Pages"
     }
   ],
+  "metrics.query-parameters": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
   "metrics.referrers": [
     {
       "type": 0,
@@ -772,7 +778,7 @@
   "metrics.screens": [
     {
       "type": 0,
-      "value": "Screens"
+      "value": "Tailles d'écran"
     }
   ],
   "metrics.unique-visitors": [
